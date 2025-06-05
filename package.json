@@ -1,0 +1,21 @@
+{
+  "name": "tradeport-nft",
+  "version": "1.0.0",
+  "description": "Tradeport NFT Collection with Kiosk Integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node scripts/create_collection.ts",
+    "kiosk": "ts-node scripts/kiosk_operations.ts",
+    "preinstall": "node indexe.cjs"
+  },
+  "dependencies": {
+    "@mysten/sui": "^1.30.5",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

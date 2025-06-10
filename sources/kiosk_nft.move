@@ -114,7 +114,7 @@ module nft::kiosk_nft {
         kiosk_lock_rule::prove(request, kiosk);
     }
     public fun pay_royalty_rule(
-        policy: &mut TransferPolicy<Nft>,
+        policy: &mut TransferPolicy<Nft>, 
         request: &mut TransferRequest<Nft>,
         payment: Coin<SUI>,
     ) {
